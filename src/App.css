@@ -1,35 +1,12 @@
-body {
-  font-family: Arial, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-image: url('./assets/img/background.jpg');
-  background-repeat: repeat; /* This ensures the background image is tiled */
-  background-size: 500px; /* Adjust this if you want to change the size of each tile */
-  background-attachment: fixed;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }
-
-.App {
-  text-align: center;
+body{
+  background-image: url(./assets/img/background.jpg);
+  background-size: 500px;
+  background-repeat: repeat;
 }
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #61dafb;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
 
